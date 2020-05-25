@@ -1,0 +1,219 @@
+/********* tag selectors **********/
+body {
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #464159;
+  text-decoration: none;
+  text-shadow: 2px 2px 8px #464159;
+}
+
+a:hover {
+  color: #272343;
+  text-decoration: none;
+  text-shadow: 2px 2px 8px #272343;
+}
+
+h1 {
+  padding-top: 175px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 300%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0 auto 30px auto;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/********* class selectors *********/
+.top-container {
+  background-color: #c7f0db;
+  position: relative;
+  width: 100%;
+  height: auto;
+  color: #464159;
+}
+
+.subtitle {
+  font-weight: lighter;
+  font-size: 150%;
+}
+
+.string-birds {
+  position: absolute;
+  left: 50px;
+}
+
+.pack-birds {
+  position: absolute;
+  right: 50px;
+  top: 150px;
+}
+
+.middle-container {
+  background-color: #8bbabb;
+  color: #464159;
+}
+
+.twitter {
+  height: auto;
+  width: auto;
+  max-width: 280px;
+  max-height: 280px;
+  padding-top: 25px;
+}
+
+.profile {
+  margin: 0 auto 50px auto;
+  font-size: 120%;
+  width: 50%;
+}
+
+.skills {
+  padding-top: 15px;
+  font-size: 120%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  padding: 0;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer {
+  height: auto;
+  width: auto;
+  max-width: 230px;
+  max-height: 280px;
+  padding-top: 0;
+  float: left;
+  margin: auto 30px 10px auto;
+}
+
+.ambulance {
+  height: auto;
+  width: auto;
+  max-width: 230px;
+  max-height: 280px;
+  float: right;
+  margin: 10px auto 10px 15px;
+}
+
+.contact-me {
+  padding-top: 0;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #6c7b95;
+  height: auto;
+  width: 100%;
+  color: #272343;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.footer-link {
+  padding: 15px;
+}
+
+/****button****/
+.BUTTON_WKB {
+  background: #6C7B95;
+  background-image: -webkit-linear-gradient(top, #6C7B95, #464159);
+  background-image: -moz-linear-gradient(top, #6C7B95, #464159);
+  background-image: -ms-linear-gradient(top, #6C7B95, #464159);
+  background-image: -o-linear-gradient(top, #6C7B95, #464159);
+  background-image: linear-gradient(to bottom, #6C7B95, #464159);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #6C7B95), color-stop(100%, #464159));
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 5px 3px 5px 3px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #464159 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_WKB:hover {
+  border: solid #8BBABB 1px;
+  background: #8BBABB;
+  background-image: -webkit-linear-gradient(top, #8BBABB, #C7F0DB);
+  background-image: -moz-linear-gradient(top, #8BBABB, #C7F0DB);
+  background-image: -ms-linear-gradient(top, #8BBABB, #C7F0DB);
+  background-image: -o-linear-gradient(top, #8BBABB, #C7F0DB);
+  background-image: linear-gradient(to bottom, #8BBABB, #C7F0DB);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #8BBABB), color-stop(100%, #C7F0DB));
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+/**** dumb gradient fix ****/
+
+.gradient-dots {
+  border: none;
+  border-top: dotted 10px #464159;
+  width: 1%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.one {
+  opacity: 0.2;
+}
+
+.two {
+  opacity: 0.4;
+}
+
+.three {
+  opacity: 0.7;
+}
+
+.five {
+  opacity: 0.7;
+}
+
+.six {
+  opacity: 0.4;
+}
+
+.seven {
+  opacity: 0.2;
+}
